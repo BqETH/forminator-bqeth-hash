@@ -87,7 +87,7 @@ if ( ! class_exists( 'WPMUDEV_Forminator_BqETH_Identifier' ) ) {
 
         }
 
-        function bqeth_replace_form_payment_data( $content, Forminator_Form_Model $custom_form = null, Forminator_Form_Entry_Model $entry = null ) {
+        function bqeth_replace_redirect_params( $content, Forminator_Form_Model $custom_form = null, Forminator_Form_Entry_Model $entry = null ) {
 
             if ( empty( $custom_form ) ) {
                 return $content;
